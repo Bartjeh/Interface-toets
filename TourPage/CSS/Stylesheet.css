@@ -1,0 +1,94 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #d1cdb6;
+    background-image: url(../Fotos/background\ site.png);
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header{
+    background-color: black;
+    padding-bottom: 8px;
+}
+
+.title{
+    color: #d1cdb6;
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.bigdiv{
+    background-color:  white;
+    margin-top: 80px;
+    margin-left: 28%;
+    margin-right: 33%;
+    margin-bottom: 50px;
+    display: flex;
+    width: 1000px;
+}
+
+.logo{
+    position: absolute;
+    height: 145px;
+    width: 145px;
+    top: 20px;
+    left: 10px;
+}
+
+.linkdiv1{
+    position: absolute;
+    top: 80px;
+    right: 350px;
+}
+
+.linkdiv2{
+    position: absolute;
+    top: 80px;
+    right: 230px;
+}
+
+.link{
+    color: white;
+    font-family: serif;
+    font-size: xx-large;
+}
+
+.divtext{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 110px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tourtitle{
+    font-size: 60px;
+}
+
+.textul{
+    font-size: xx-large;
+}
+
+.cover{
+    height: 600px;
+    width: 430px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.searchglass{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 145px;
+    top: 75px;
+}
