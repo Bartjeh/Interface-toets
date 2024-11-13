@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="Stylesheet" href="../Ticket page/CSS/Stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="header">
+        <img class="logo" alt="logosymbol" src="../HomePage/Fotos/Symbool.svg">
+       <img class="logo" alt="logotext" src="../HomePage/Fotos/Text_Logo.svg">
+       <img class="searchglass" alt="searchglass" src="../HomePage/Fotos/searchglass.png">
+       <div>
+           <h1 class="title">Arctic Monkeys</h1>
+       </div>
+       <div class="linkdiv1">
+           <a href="../TourPage/Tourpage.html" class="link"> Tour </a>
+       </div>
+       <div class="linkdiv2">
+           <a href="../ContactPage/Contactpage.html" class="link"> Contact </a>
+       </div>
+       <div class="linkdiv3">
+        <a href="../HomePage/Homepage.html" class="link"> Home </a>
+       </div>
+   </div>
+
+
+
+   <div class="bigdiv">
+
+        <div class="containerdiv">
+
+            <div class="buyerinfo">
+                <h2 class="tickettitle">Info</h2>
+                <h3>Name</h3>
+                <p><input class="inputstyle" type="text" id="name"  placeholder="Name"></p>
+                <h3>Adress</h3>
+                <p><input class="inputstyle" type="text" id="adress"  placeholder="Adress"></p>
+                <h3>Phone number</h3>
+                <p><input class="inputstyle" type="tel" id="phone" placeholder="06 xxxxxxxx"></p>
+            </div>
+
+            <div>
+                <h1 class="tickettitle">Tickets</h1>
+                <h2>Album</h2>
+                <p> album prices 45 euro</p>
+                
+                <select  class="inputstyle" id="albumselector">
+                    <option value="nothing" disabled selected>Select your option</option>
+                    <option value="vélo" id="Vélo">Vélo plage</option>
+                    <option value="am" id="AM">AM</option>
+                    <option value="fav" id="Favourite">Favourite worst nightmares</option>
+                    <option value="hum" id="Humburg">Humburg</option>
+                    <option value="what" id="Whatever">Whatever people say i am, i am</option>
+                    <option value="car" id="car">The car</option>
+                </select>
+
+                <h2>Concert Ticket</h2>
+                <p> ticket prices 110 per ticket</p>
+                <input class="inputstyle" type="number" id="ticketamount">
+
+                <p>
+                    <button class="buttonstyle" onclick="check()">Order</button>
+                </p>
+
+
+                <p1>10% off on buying tickets and an album together!</p1>
+                <h2>Total:</h2>
+                <p id="antwoord"></p>
+            </div>
+            
+
+        
+        </div>
+        <div class="divtext">
+
+            
+
+        </div>
+
+        <script src="../Ticket page/JS/Javascript.js"></script>
+</div>
+</body>
+</html>

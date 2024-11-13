@@ -27,12 +27,13 @@ body{
 
 .bigdiv{
     background-color:  white;
-    margin-top: 130px;
-    margin-left: 22%;
+    margin-top: 50px;
+    margin-left: 28%;
     margin-right: 33%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     display: flex;
-    width: 1200px;
+    flex-direction: column;
+    width: 1000px;
 }
 
 .logo{
@@ -46,13 +47,19 @@ body{
 .linkdiv1{
     position: absolute;
     top: 80px;
-    right: 350px;
+    right: 500px;
 }
 
 .linkdiv2{
     position: absolute;
     top: 80px;
-    right: 230px;
+    right: 360px;
+}
+
+.linkdiv3{
+    position: absolute;
+    top: 80px;
+    right: 600px;
 }
 
 .link{
@@ -61,22 +68,17 @@ body{
     font-size: xx-large;
 }
 
-.linkdiv2{
-    color: black;
-    font-size: 200px;
-}
-
 .divtext{
-    padding-left: 70px;
-    padding-top: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
     padding-right: 110px;
-    text-align: center;
+    padding-bottom: 40px;
     font-size: 25px;
 }
 
 .cover{
-    height: 550px;
-    width: 550px;
+    height: 450px;
+    width: 450px;
     padding-right: 35px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -90,15 +92,31 @@ body{
     top: 75px;
 }
 
-.videodiv{
-    background-color: white;
+.tickettitle{
+    font-size: 60px;
+    margin-left: 100px;
 }
 
-.video{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transform: scale(200%);
-    margin-left: 42%;
+.inputstyle{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 600px
+}
+
+.buttonstyle{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.containerdiv{
+    padding-left: 20px;
 }
